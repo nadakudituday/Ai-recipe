@@ -6,7 +6,7 @@ from PIL import Image
 
 # API Configuration
 FLASK_SERVER_URL = "http://127.0.0.1:5000/latest_image"  # Flask backend for ESP32 images
-API_KEY = "AIzaSyB40JCVNmmLfjtvXYETQOiXL7G7w1czKfQ"  # Replace with your actual API key
+API_KEY = "your api key"  # Replace with your actual API key
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={API_KEY}"
 
 st.title("AI Recipe Predictor")
