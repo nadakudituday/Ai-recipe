@@ -9,7 +9,7 @@ import os
 app = Flask(__name__)
 
 ESP32_URL = "http://192.168.131.229:81/stream"  # Update with ESP32-CAM IP
-IMGBB_API_KEY = "dcc0178a24b1804b5f1b37d1ca01abe8"  # Replace with your ImgBB API key
+IMGBB_API_KEY = "imgbb api key"  # Replace with your ImgBB API key
 latest_image_url = None  # Store latest uploaded image URL
 
 # Global frame storage
